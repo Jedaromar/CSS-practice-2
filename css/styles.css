@@ -1,0 +1,141 @@
+/****************HTML ELEMNTS**************/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url("budapest.jpg");
+  /*To make your image background. It has to be in the CSS folder*/
+  background-size: cover;
+  /*This makes the image cover the whole background*/
+}
+
+em {
+  font-style: normal;
+  padding: 2px;
+}
+
+footer {
+  background-color: white;
+  padding: 0.7rem;
+  margin-top: 16.5%;
+}
+
+header {
+  background-color: white;
+  padding: 16px
+}
+
+h1 {
+  margin: 0;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  font-family: 'Oswald', sans-serif;
+}
+
+nav li {
+  display: inline;
+  padding: 12px;
+  list-style-type: none;
+  /*resets the list styling*/
+  font-size: 1.3rem;
+}
+
+nav ul {
+  /* selecting a child of smth. here, is the ul from the nav*/
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 10px;
+  top: 20px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 13%;
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+section p {
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/****************CLASS SELECTORS**************/
+.container {
+  margin: auto 0 auto 0;
+  overflow: hidden;
+  /*this will make clipped the things that are to big to be displayed*/
+}
+
+.head {
+  position: relative;
+  left: 10px;
+}
+
+.info-btn {
+  padding: 0.5rem;
+  color: white;
+  border: solid white;
+  background-color: transparent;
+  border-radius: 1.2rem;
+  margin-top: 2%;
+  margin-left: 2%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.input-where {
+  position: relative;
+  bottom: 2px;
+}
+
+.left {
+  display: inline-block;
+  position: relative;
+  left: 840px;
+  top: 2px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+}
+
+.map-btn {
+  margin-left: 39.5%;
+  padding: 0.7rem;
+  color: white;
+  background-color: blue;
+  border: none;
+  border-radius: 1.2rem;
+  margin-top: 2%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.right {
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  padding: 2px;
+  margin-top: 20px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.submit-btn {
+  background-color: transparent;
+  color: black;
+  border: solid black;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 1.2rem;
+  padding: 6px;
+  margin-left: 4px;
+  font-weight: bold;
+  position: relative;
+  bottom: 2.5px;
+}
